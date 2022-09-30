@@ -1,0 +1,24 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 6px;
+}
+
+.navLinks {
+  display: flex;
+}
+
+.navLinks p {
+  margin: 0 1rem;
+  padding: 4px;
+}
+
+.navLinks p a {
+  color: #3a4256;
+}
+
+.navLinks p a:hover {
+  background-color: #3a4256;
+  color: #d4d9e3;
+}
