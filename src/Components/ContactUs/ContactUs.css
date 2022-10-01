@@ -1,0 +1,12 @@
+.contactUsContainer {
+  background-image: url("../../assets//images/appointment.png");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 145px;
+}
+
+.contactUsContainer p input {
+  width: 280px;
+  height: 76px;
+}

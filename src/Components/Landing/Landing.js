@@ -17,14 +17,14 @@ const Landing = () => {
             tenetur assumenda dolor perspiciatis ipsa!
           </p>
           <br />
-          <button>Get Started</button>
+          <button className="buttonStyle">GET STARTED</button>
         </div>
         <div className="landing-chair1">
           <img src={chair1} alt="chair1" />
         </div>
       </div>
       <div className="appointment">
-        <div className="appointmentChild">
+        <div className="appointmentChild clockBg">
           <div className="imgIcon">
             <img style={{ height: "30px", width: "30px" }} src={clock} alt="" />
           </div>
@@ -33,8 +33,8 @@ const Landing = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
           </div>
         </div>
-        <div className="appointmentChild">
-          <div className="locationIcon">
+        <div className="appointmentChild locationBg">
+          <div className="locationIcon ">
             <img
               style={{ height: "40px", width: "40px" }}
               src={location}
@@ -47,7 +47,7 @@ const Landing = () => {
             <p>Brooklyn, NY 10036, United States</p>
           </div>
         </div>
-        <div className="appointmentChild">
+        <div className="appointmentChild contactBg">
           <div className="contactIcon">
             <img style={{ height: "30px", width: "30px" }} src={phone} alt="" />
           </div>

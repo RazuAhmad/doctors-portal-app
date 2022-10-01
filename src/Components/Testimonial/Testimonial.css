@@ -1,0 +1,31 @@
+.testimonialHeader {
+  margin-top: 43px;
+}
+
+.testimonialTextColor {
+  color: #19d3ae;
+}
+
+.opinionContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+  text-align: center;
+}
+
+.opinion {
+  padding: 12px;
+  margin-left: 20px;
+  border-radius: 7px;
+  box-shadow: 3px 4px 14px gray;
+}
+
+.patientIdentity {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.patientIdentity p img {
+  margin-right: 12px;
+}

@@ -1,0 +1,14 @@
+.appointmentInvitationContainer {
+  display: flex;
+  color: white;
+  background-image: url("../../assets/icons/background-blue.png");
+}
+
+.doctorsImg {
+  margin-top: -74px;
+}
+
+.appointmentTexts {
+  margin-top: 125px;
+  padding: 9px;
+}

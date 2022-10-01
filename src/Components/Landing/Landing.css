@@ -1,5 +1,5 @@
 .landingSection {
-  height: 501px;
+  /* height: 501px; */
 }
 
 .landing-container {
@@ -8,17 +8,24 @@
 }
 
 .landing-title {
-  margin: 250px 24px 0px 84px;
+  margin: 130px 24px 0px 84px;
   background-image: url("../../assets/images/bg.png");
   background-repeat: no-repeat;
-
+  background-position: center;
   background-size: cover;
+}
+
+.buttonStyle {
+  background-color: #0fcfec;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
 }
 
 .landing-chair1 {
   width: 594px;
   height: 255px;
-  margin: 207px 62px 194px 24px;
+  margin: 110px 62px 194px 24px;
 }
 
 .landing-chair1 img {
@@ -28,10 +35,34 @@
 
 .appointment {
   display: flex;
+
   margin-top: 50px;
   justify-content: space-evenly;
 }
 
 .appointmentChild {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 190px;
+}
+
+.imgIcon {
+  margin-right: 8px;
+}
+
+.clockBg {
+  background-color: #0fcfec;
+  border-radius: 11px;
+}
+
+.locationBg {
+  background-color: #3a4256;
+  border-radius: 11px;
+}
+
+.contactBg {
+  background-color: hsl(258, 74%, 64%);
+  border-radius: 11px;
 }
