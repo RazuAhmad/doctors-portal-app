@@ -1,5 +1,11 @@
+.testimonialContainer {
+  height: 400px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
 .testimonialHeader {
-  margin-top: 43px;
+  margin-left: 85px;
 }
 
 .testimonialTextColor {
@@ -15,7 +21,7 @@
 
 .opinion {
   padding: 12px;
-  margin-left: 20px;
+  margin-left: 34px;
   border-radius: 7px;
   box-shadow: 3px 4px 14px gray;
 }

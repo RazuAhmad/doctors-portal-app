@@ -3,8 +3,8 @@ import "./Testimonial.css";
 import patientImg from "../../assets/images/people1.png";
 const Testimonial = () => {
   return (
-    <div>
-      <div className="testimonialHeader">
+    <div className="testimonialContainer">
+      <div className="testimonialHeader" id="reviews">
         <h3 className="testimonialTextColor">Testimonial</h3>
         <h2>What Our Patient Says</h2>
       </div>

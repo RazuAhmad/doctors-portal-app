@@ -3,7 +3,7 @@ import "./AppointmentInvitation.css";
 import doctorsPhoto from "../../assets/images/doctor-small.png";
 const AppointmentInvitation = () => {
   return (
-    <div className="appointmentInvitationContainer">
+    <div className="appointmentInvitationContainer" id="appointment">
       <div className="doctorsImg">
         <img src={doctorsPhoto} alt="" />
       </div>

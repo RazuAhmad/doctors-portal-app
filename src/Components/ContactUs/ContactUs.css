@@ -3,10 +3,21 @@
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 145px;
+  padding: 82px;
+  margin-top: 70px;
+  height: 500px;
 }
 
 .contactUsContainer p input {
   width: 280px;
-  height: 76px;
+  height: 56px;
+  border-radius: 11px;
+  border: none;
+}
+
+.submit {
+  padding: 9px 22px;
+  border-radius: 6px;
+  background-color: #19d3ae;
+  border: none;
 }

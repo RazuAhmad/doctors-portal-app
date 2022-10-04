@@ -2,7 +2,7 @@ import React from "react";
 import "./ContactUs.css";
 const ContactUs = () => {
   return (
-    <form className="contactUsContainer">
+    <form className="contactUsContainer" id="contactUs">
       <h3>Contact Us</h3>
       <h2>Stay Connected With Us</h2>
       <br />
@@ -22,6 +22,9 @@ const ContactUs = () => {
           id=""
         />
       </p>
+      <br />
+
+      <input className="submit" type="submit" value="SUBMIT" />
     </form>
   );
 };
